@@ -2,6 +2,8 @@
 
 [![Travis Status](https://travis-ci.com/Schascha/los-schimpfos-vue.svg?branch=master)](https://travis-ci.com/Schascha/los-schimpfos-vue)
 
+https://schascha.github.io/los-schimpfos-vue/
+
 Just a Vue.js implementation of the marvelous https://los-schimpfos.de/
 
 ## Project setup
@@ -21,7 +23,7 @@ npm run build
 
 ### Lints and fixes files
 ```
-npm run test
+npm test
 ```
 
 ## Bugs?
