@@ -1,0 +1,41 @@
+button {
+	transition:
+		background-color $transition-duration ease-out,
+		color $transition-duration ease-out;
+	cursor: pointer;
+	display: inline-block;
+	margin: 0;
+	padding: 1.5rem 3rem;
+	width: auto;
+	background: none;
+	border: 2px solid $color-text;
+	border-radius: 3px;
+	outline: 0;
+	color: inherit;
+	font: inherit;
+	line-height: 1.25;
+	text-transform: uppercase;
+
+	&:hover,
+	&:focus {
+		background-color: $color-text;
+		color: $color-brand;
+	}
+
+	&[disabled],
+	&.disabled {
+		pointer-events: none;
+		opacity: 0.5;
+	}
+
+	svg {
+		width: 16px;
+		height: 16px;
+		vertical-align: middle;
+		fill: currentColor;
+	}
+
+	span {
+		@include hidden();
+	}
+}

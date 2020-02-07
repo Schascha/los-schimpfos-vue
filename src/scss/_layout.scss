@@ -1,0 +1,56 @@
+html {
+	box-sizing: border-box;
+	font-family: $font-family;
+	font-size: 16px;
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	padding: 1rem;
+	background-color: $color-brand;
+	color: $color-text;
+	font-weight: normal;
+	text-align: center;
+}
+
+h1 {
+	margin: 2rem 0;
+	font-size: 2rem;
+	font-weight: bold;
+	line-height: 1.2;
+
+	@include mq($mobile) {
+		font-size: 3.5rem;
+	}
+}
+
+section {
+	animation: fade-in 1s forwards ease-out;
+	margin: 3rem auto;
+	max-width: 640px;
+}
+
+.logo {
+	width: 60%;
+	max-width: 220px;
+}
+
+@keyframes fade-in {
+	from {
+		opacity: 0;
+		transform: translate(0, 10%);
+	}
+
+	to {
+		opacity: 1;
+	}
+}
