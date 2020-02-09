@@ -3,9 +3,5 @@
 	top: 1rem;
 	left: 1rem;
 	padding: 0.5rem;
-	line-height: 1;
-
-	span {
-		@include hidden();
-	}
+	line-height: 0;
 }

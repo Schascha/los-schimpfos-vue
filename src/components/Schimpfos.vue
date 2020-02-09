@@ -54,5 +54,6 @@ export default {
 
 <style lang="scss">
 	@import '../scss/components/button';
+	@import '../scss/components/logo';
 	@import '../scss/components/wortos';
 </style>
