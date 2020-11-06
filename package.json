@@ -8,7 +8,7 @@
     "url": "https://github.com/Schascha/los-schimpfos-vue"
   },
   "scripts": {
-    "dev": "vue-cli-service serve",
+    "start": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test": "vue-cli-service lint && sass-lint src/**/*.scss -v -q"
   },
