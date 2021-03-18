@@ -1,6 +1,8 @@
+![Logo](src/assets/logo.svg/?raw=true)
+
 # los-schimpfos-vue
 
-[![Travis Status](https://travis-ci.com/Schascha/los-schimpfos-vue.svg?branch=master)](https://travis-ci.com/Schascha/los-schimpfos-vue)
+![Build](https://github.com/Schascha/los-schimpfos-vue/workflows/Build/badge.svg)
 
 https://schascha.github.io/los-schimpfos-vue/
 
@@ -13,7 +15,7 @@ npm install
 
 ### Compiles and hot-reloads for development
 ```
-npm run dev
+npm start
 ```
 
 ### Compiles and minifies for production
@@ -30,7 +32,7 @@ npm test
 
 Please let me know: https://github.com/Schascha/los-schimpfos-vue/issues
 
-## :coffee: Buy me a Coffee
+## Buy me a Coffee :coffee:
 
 Support this project and [others](https://github.com/Schascha?tab=repositories) via [PayPal](https://www.paypal.me/LosZahlos). Thanks
 
