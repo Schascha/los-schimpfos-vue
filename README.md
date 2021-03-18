@@ -4,9 +4,9 @@
 
 ![Build](https://github.com/Schascha/los-schimpfos-vue/workflows/Build/badge.svg)
 
-https://schascha.github.io/los-schimpfos-vue/
+> Just a Vue.js implementation of the marvelous https://los-schimpfos.de/
 
-Just a Vue.js implementation of the marvelous https://los-schimpfos.de/
+https://schascha.github.io/los-schimpfos-vue/
 
 ## Project setup
 ```
