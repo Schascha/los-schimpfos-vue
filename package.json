@@ -13,7 +13,7 @@
     "test": "vue-cli-service lint && sass-lint src/**/*.scss -v -q"
   },
   "dependencies": {
-    "core-js": "^3.10.2",
+    "core-js": "^3.11.0",
     "vue": "^2.6.12",
     "vuex": "^3.6.2"
   },
