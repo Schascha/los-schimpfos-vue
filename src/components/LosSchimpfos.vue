@@ -17,7 +17,7 @@
 import Logo from '../assets/logo-white.svg';
 
 export default {
-	name: 'Schimpfos',
+	name: 'LosSchimpfos',
 	components: {
 		Logo
 	},

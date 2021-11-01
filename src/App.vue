@@ -2,21 +2,21 @@
 	<div id="app">
 		<ButtonPrev />
 		<ButtonAudio />
-		<Schimpfos />
+		<LosSchimpfos />
 	</div>
 </template>
 
 <script>
-import ButtonAudio from './components/ButtonAudio.vue'
-import ButtonPrev from './components/ButtonPrev.vue'
-import Schimpfos from './components/Schimpfos.vue'
+import ButtonAudio from './components/ButtonAudio'
+import ButtonPrev from './components/ButtonPrev'
+import LosSchimpfos from './components/LosSchimpfos'
 
 export default {
 	name: 'app',
 	components: {
 		ButtonAudio,
 		ButtonPrev,
-		Schimpfos
+		LosSchimpfos
 	}
 }
 </script>
