@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "core-js": "^3.20.3",
-    "vue": "^2.6.14",
+    "vue": "^3.2.33",
     "vuex": "^3.6.2"
   },
   "devDependencies": {
