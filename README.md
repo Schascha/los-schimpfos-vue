@@ -2,7 +2,7 @@
 
 # los-schimpfos-vue
 
-![Build](https://github.com/Schascha/los-schimpfos-vue/workflows/Build/badge.svg)
+[![Build](https://github.com/Schascha/los-schimpfos-vue/actions/workflows/build.yml/badge.svg)](https://github.com/Schascha/los-schimpfos-vue/actions/workflows/build.yml)
 
 > Just a Vue.js implementation of the marvelous https://los-schimpfos.de/
 
