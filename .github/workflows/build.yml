@@ -7,19 +7,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v2
-        with:
-          persist-credentials: false
+        uses: actions/checkout@v4
 
-      - name: Build 🔧
-        run: |
-          npm ci
-          npm test
-          npm run build
+      - name: Setup 🔌
+        uses: actions/setup-node@v4
+
+      - name: Install dependencies 👨🏻‍💻
+        run: npm ci
+
+      - name: Run tests 👀
+        run: npm t
+
+      - name: Run build 🔧
+        run: npm run build
 
       - name: Deploy 🚀
         if: github.ref == 'refs/heads/main'
-        uses: JamesIves/github-pages-deploy-action@v4.2.3
+        uses: JamesIves/github-pages-deploy-action@v4.5.0
         with:
           branch: gh-pages
           folder: dist
